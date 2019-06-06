@@ -1,11 +1,11 @@
 import React from 'react';
-import { directive } from '@babel/types';
+//import { directive } from '@babel/types';
 
 const Header = () => {
   return (
-    <div>
-      <div className="black-90">
-        <h1 className='f'>It's Header</h1>
+    <div className='h-100'>
+      <div className="tc m3 pv4 pv5-ns bg-black-30">
+        <h1 className='f1'>It's Header</h1>
       </div>
       
     </div>
