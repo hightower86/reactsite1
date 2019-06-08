@@ -3,6 +3,7 @@ import React from 'react';
 //import './App.css';
 import Header from './Header' ;
 import Section1 from './Section1';
+import Its from './Its';
 import Footer from './Footer';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="">
       <Header />
       <Section1 />
+      <Its />
       <Footer />
     </div>
   );
