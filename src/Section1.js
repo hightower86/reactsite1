@@ -2,7 +2,7 @@ import React from 'react';
 
 const Section1 = () => {
   return (
-    <div className='mw9 bg-light-gray'>
+    <div className='vh-75 mw9 bg-light-gray'>
       <h2 className='pa3 tc f2'>Наши услуги.</h2>
       <section className="flex items-center vh-50 fl w-100-m w-50-ns mw5 mw9-ns pa2 ph5-ns">
         <div className=''>
