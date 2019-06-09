@@ -8,7 +8,7 @@ const Main = () => {
       <h2 className='pa3 tc f2'>Программы 1С:Предприятие 8</h2>
       <h4 className='f4 ph6 pb3 tc'>Сегодня доступна не только покупка лицензии на программу и установка на свой компьютер, но и пользоваться программой по подписке (аренда в облачном сервисе).</h4>
       <div className='main'>
-        <section className="tc bg-white-50 dib br2 pa3 ma2 bw1 shadow-3">
+        <section className="bg-animate hover-bg-light-yellow tc bg-white-50 dib br2 pa3 ma2 bw1 shadow-3">
           <div className=''>
             <h2 className="f3 mt0 pb3 mh3">1С Бухгалтерия 8</h2>
             <p className="lh-copy measure pb3 mb3">
