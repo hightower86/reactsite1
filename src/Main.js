@@ -22,7 +22,7 @@ const Main = () => {
 
           </div>
         </section>
-        <section className="tc bg-light-blue dib br0 pa3 ma2 grow bw2 shadow-3">
+        <section className="tc bg-light-blue dib br0 pa3 ma2 bg-animate hover-bg-light-yellow bw2 shadow-3">
           <div className=''>
             <h1 className="mt0">Centered Container</h1>
             <hr className='pb2'/>
@@ -32,7 +32,7 @@ const Main = () => {
             </p>
           </div>
         </section>
-        <section className="tc bg-light-green dib br1 pa3 ma2 grow bw2 shadow-3">
+        <section className="tc bg-light-green dib br1 pa3 ma2 bg-animate hover-bg-light-yellow bw2 shadow-3">
           <div className=''>
             <h1 className="mt0">Centered Container</h1>
             <p className="lh-copy measure">
@@ -41,7 +41,7 @@ const Main = () => {
             </p>
           </div>
         </section>
-        <section className="tc bg-light-gray dib br1 pa3 ma2 grow bw2 shadow-3">
+        <section className="tc bg-light-gray dib br1 pa3 ma2 bg-animate hover-bg-light-yellow bw2 shadow-3">
           <div className=''>
             <h1 className="mt0">Centered Container</h1>
             <p className="lh-copy measure">
@@ -50,7 +50,7 @@ const Main = () => {
             </p>
           </div>
         </section>
-        <section className="tc bg-light-gray dib br2 pa3 ma2 grow bw2 shadow-3">
+        <section className="tc bg-light-gray dib br2 pa3 ma2 bg-animate hover-bg-light-yellow bw2 shadow-3">
           <div className=''>
             <h1 className="mt0">Centered Container</h1>
             <p className="lh-copy measure">
@@ -59,7 +59,7 @@ const Main = () => {
             </p>
           </div>
         </section>
-        <section className="tc bg-light-blue dib br2 pa3 ma2 grow bw2 shadow-3">
+        <section className="tc bg-light-blue dib br2 pa3 ma2 bg-animate hover-bg-light-yellow bw2 shadow-3">
           <div className=''>
             <h1 className="mt0">Centered Container</h1>
             <p className="lh-copy measure">
@@ -68,7 +68,7 @@ const Main = () => {
             </p>
           </div>
         </section>
-        <section className="tc bg-light-red dib br3 pa3 ma2 grow bw2 shadow-3">
+        <section className="tc bg-light-red dib br3 pa3 ma2 bg-animate hover-bg-light-yellow bw2 shadow-3">
           <div className=''>
             <h1 className="mt0">Centered Container</h1>
             <p className="lh-copy measure">
@@ -77,7 +77,7 @@ const Main = () => {
             </p>
           </div>
         </section>
-        <section className="tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-3">
+        <section className="tc bg-light-green dib br3 pa3 ma2 bg-animate hover-bg-light-yellow bw2 shadow-3">
           <div className=''>
             <h1 className="mt0">Centered Container</h1>
             <p className="lh-copy measure">
