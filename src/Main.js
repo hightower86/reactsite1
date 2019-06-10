@@ -53,9 +53,9 @@ const Main = () => {
       <div className='main'>  
         <section className="ad2 animated bounceInLeft  bg-animate hover-bg-light-yellow tc bg-white-50 dib br2 pa3 ma2 bw1 shadow-3">
           <div className=''>
-            <h2 className="f3 mt0 pb3 mh3">1С Бухгалтерия</h2>
-            <div className="pic">
-              <img className='logoP' src="./img/logoBP.png" alt="logo"/>
+            <div className="prodTitle fl dib">
+              <h2 className="f3 mt0 pb3 mh3">1С Бухгалтерия</h2>
+              <img className='' src={require("./img/logoBP-200.png")} alt="logo"/>
             </div>
             <p className='lh-copy measure pb3 mb3'>
             Бухгалтерский и налоговый учет, сдача отчетности через Интернет – для ИП и организаций: все участки учета, любая система налогообложения (ОСНО, ЕНВД, УСН), любой вид деятельности.
