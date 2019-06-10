@@ -11,15 +11,15 @@ const Main = () => {
       <div className='main'>
         <section className="ad2 animated bounceInLeft  bg-animate hover-bg-light-yellow tc bg-white-50 dib br2 pa3 ma2 bw1 shadow-3">
           <div className=''>
-            <h2 className="f3 mt0 pb3 mh3">Покупка</h2>
-            <p className="lh-copy measure pb3 mb3">
-            <div className='b tl ml3'>Преимущества: </div>
+            <h2 className="f3 mt0 pb3 mh3 dark-red">Покупка</h2>
+            <p className="lh-copy measure pb3">
+            <div className='b tl ml3 dark-green'>Преимущества: </div>
             <ul className='ml4 tl'>
               <li>база всегда "при себе". доступ только для своих.</li>
               <li>заплатил один раз и пользуйся</li>
               <li>низкая стоимость владения для базовых версий</li>
             </ul>
-            <div className='b tl ml3'>Недостатки: </div>
+            <div className='b tl ml3 dark-red'>Недостатки: </div>
             <ul className='ml4 tl'>
               <li>если не соблюдать правила, легко потерять данные</li>
               <li>любое масштабирование связано с доп. затратами</li>
@@ -30,26 +30,26 @@ const Main = () => {
         </section>
         <section className="ad3 animated bounceInRight  bg-animate hover-bg-light-yellow tc bg-white-50 dib br2 pa3 ma2 bw1 shadow-3">
           <div className=''>
-            <h2 className="f3 mt0 pb3 mh3">Аренда</h2>
-            <p className="lh-copy measure pb3 mb3">
-            <div className='b tl ml5'>Преимущества: </div>
+            <h2 className="f3 mt0 pb3 mh3 dark-blue">Аренда</h2>
+            <p className="lh-copy measure pb3">
+            <div className='b tl ml5 dark-green'>Преимущества: </div>
             <ul className='ml4 tl'>
-              <li>база в надежном месте.</li>
-              <li>доступ из любой точки планеты.</li>
+              <li>база в надежном месте, безопасность на высоком уровне</li>
+              <li>доступ из любой точки планеты. обновления - автоматически!</li>
               <li>легкое масштабирование</li>
             </ul>
-            <div className='b tl ml5'>Недостатки: </div>
+            <div className='b tl ml5 dark-red'>Недостатки: </div>
             <ul className='ml4 tl'>
               <li>нет интернета - нет доступа к программе</li>
               <li>заплатил один раз и пользуйся</li>
-              <li></li>
+              <li>не смогли придумать :)))</li>
             </ul>
             </p>
           </div>
         </section>
         <section className="ad2 animated bounceInLeft  bg-animate hover-bg-light-yellow tc bg-white-50 dib br2 pa3 ma2 bw1 shadow-3">
           <div className=''>
-            <h2 className="f3 mt0 pb3 mh3">1С Бухгалтерия</h2>
+            <h2 className="f3 mt0 pb3 mh3">1С Бухгалтерия <br/><br/></h2>
             <p className="lh-copy measure pb3 mb3">
             <div className='b tl m5'>Преимущества: </div>
        
