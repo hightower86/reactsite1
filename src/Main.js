@@ -47,16 +47,18 @@ const Main = () => {
             </p>
           </div>
         </section>
+      </div>  {/*class Main */}
+        <h2 className='animated flipInX pa3 pt4 tc f2'>Любое решение для Вашего бизнеса.</h2>
+        <h4 className='ad1 animated flipInX f4 ph6 pb3 tc'>Мы поможем Вам выбрать нужный продукт.</h4>
+      <div className='main'>  
         <section className="ad2 animated bounceInLeft  bg-animate hover-bg-light-yellow tc bg-white-50 dib br2 pa3 ma2 bw1 shadow-3">
           <div className=''>
-            <h2 className="f3 mt0 pb3 mh3">1С Бухгалтерия <br/><br/></h2>
-            <p className="lh-copy measure pb3 mb3">
-            <div className='b tl m5'>Преимущества: </div>
-       
-            </p>
+            <h2 className="f3 mt0 pb3 mh3">1С Бухгалтерия</h2>
+            <div className="pic">
+              <img className='logoP' src="./img/logoBP.png" alt="logo"/>
+            </div>
             <p className='lh-copy measure pb3 mb3'>
-            Combine width or max-width values with the center class to create a centered
-            container for your content.
+            Бухгалтерский и налоговый учет, сдача отчетности через Интернет – для ИП и организаций: все участки учета, любая система налогообложения (ОСНО, ЕНВД, УСН), любой вид деятельности.
             </p>
             <div className="btns pb3">
               <a className="h-btn ba br1 pa3">Купить</a>

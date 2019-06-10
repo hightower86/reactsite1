@@ -27,7 +27,7 @@
   display: grid;
   justify-items: stretch;
   /* grid-gap: 5px; */
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 .btns {
   display: grid;
@@ -49,6 +49,11 @@
   animation-name: flipInX-hover;
   animation-iteration-count: 1;
   animation-delay: 1s;
+}
+
+.logoP {
+  width: 50px;
+  height: 50px;
 }
 .ad1 {
   animation-delay: 500ms;
