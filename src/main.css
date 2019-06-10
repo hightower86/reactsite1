@@ -51,11 +51,11 @@
   animation-delay: 1s;
 }
 .ad1 {
-  animation-delay: 1s;
+  animation-delay: 500ms;
 }
 .ad2 {
-  animation-delay: 2s;
+  animation-delay: 1000ms;
 }
 .ad3 {
-  animation-delay: 3s;
+  animation-delay: 1500ms;
 }
