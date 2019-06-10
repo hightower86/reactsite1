@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Router, HashRouter, Link, Route, NavLink } from 'react-router-dom';
 
 // import logo from './logo.svg';
-//import './App.css';
+import './App.css';
 import Header from './Header' ;
 import Main from './Main';
 import Its from './Its';
@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <HashRouter>
-        <header class="w-100 flex items-center bg-navy gradient h3 ph3">
+        <header class="w-100 flex items-center h3 ph3">
           <nav class="">
             <Link to='/' class="link white-60 mr3 pa1" href="" title="Home">1С Программы</Link>
             <Link to='/its' class="link white-60 mr3 pa1" href="" title="About">1С ИТС</Link>

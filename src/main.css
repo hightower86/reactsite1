@@ -1,9 +1,61 @@
+@keyframes flipInX-hover {
+  from {
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+
+  to {
+    transform: perspective(400px);
+  }
+}
 .main {
   display: grid;
   justify-items: stretch;
   /* grid-gap: 5px; */
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
-section {
+.btns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: stretch;
+  grid-gap: 20px;
+  
+}
+.h-btn {
+  background-color: #fff;
+  backface-visibility: visible !important;
+  animation-name: flipInX-hover;
+  animation-iteration-count: 1;
+  animation-delay: 1s;
 
+}
+.h-btn:hover {
+  backface-visibility: visible !important;
+  animation-name: flipInX-hover;
+  animation-iteration-count: 1;
+  animation-delay: 1s;
+}
+.ad1 {
+  animation-delay: 1s;
+}
+.ad2 {
+  animation-delay: 2s;
+}
+.ad3 {
+  animation-delay: 3s;
 }
